@@ -9,7 +9,7 @@ import RenderPropsDemo from "./pages/RenderPropsDemo";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Day_43_react/">
       <Routes>
         <Route element={<AuthLayout />}>
           <Route path="/register" element={<Register />} />
