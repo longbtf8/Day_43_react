@@ -1,5 +1,5 @@
-import withLoading from "../../../../../hoc/withLoading";
-import { useGetCurrentUserQuery } from "../../../../../services/auth";
+import withLoading from "../../../hoc/withLoading";
+import { useGetCurrentUserQuery } from "../../../services/auth";
 
 const UserProfile = withLoading(() => {
   const { currentData } = useGetCurrentUserQuery();

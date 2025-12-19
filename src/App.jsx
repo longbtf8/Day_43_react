@@ -4,7 +4,7 @@ import Login from "./pages/Auth/Login";
 import AuthLayout from "./components/AuthLayout";
 import DefaultLayout from "./components/DefaultLayout";
 import Home from "./pages/Home";
-import HOCDemo from "./pages/src/pages/HOCDemo";
+import HOCDemo from "./pages/HOCDemo";
 import RenderPropsDemo from "./pages/RenderPropsDemo";
 
 function App() {
